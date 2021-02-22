@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const path = require("path");
 const cookieParser = require("cookie-parser");
@@ -17,6 +18,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/", indexRouter);
 app.use("/users", usersRouter);
+console.log(process.env.DB_URL);
 
 mongoose
     .connect(process.env.DB_URL, {
@@ -25,6 +27,9 @@ mongoose
     })
     .then(() => {
         console.log("Connected to MongoDB database");
+    })
+    .catch((err) => {
+        console.log(err);
     });
 
 module.exports = app;
