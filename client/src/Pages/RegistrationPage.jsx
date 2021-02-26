@@ -45,7 +45,7 @@ class RegistrationPage extends Component{
                     <p id="haveAccountLabel" className = "HaveAccountLabel">Already have an account? <Link id="signInLink" to="/"><b id="signIn">Sign In</b></Link></p>
                 </div>
                 <div id="createAccountBtnBackground"  className="BtnBackground">
-                    <Button className="RegisterPageButtons" onClick={this.createAccount}>Create Account</Button>
+                    <Button className="RegisterPageButtons" onClick={this.createAccount}>Register</Button>
                 </div>
             </div>
         )
