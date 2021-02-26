@@ -1,32 +1,35 @@
 import React, { Component } from 'react';
 import { Button } from 'react-bootstrap';
 import {Link} from "react-router-dom";
+import "./RegistrationPage.css";
 
-import "./LoginPage.css";
 
-
-class LoginPage extends Component{
-    signIn() {
-        alert("Sign in clicked");
+class RegistrationPage extends Component{
+    createAccount() {
+        alert("Create New Account clicked");
     }
-    createNewAccount() {
-        alert("Create New Account");
-    }
-
     render(){
-
+      
         return(
             <div id="pageBackground">
                 <div id="titleBackground">
                     <h1 id="title">
-                        ACM Hangout
+                        Join Us
                     </h1>
                 </div>
                 <div id="userInputBackground"  className="InputBackground">
-                    <p id="emailLabel" className = "InputLabel">Email</p>
+                    <p id="userLabel" className = "InputLabel">Name</p>
                     <form>
                         <label>
                             <input type="text" autocomplete="off" id = "userInput" />
+                        </label>
+                    </form>
+                </div>
+                <div id="emailInputBackground"  className="InputBackground">
+                    <p id="emailLabel" className = "InputLabel">Email</p>
+                    <form>
+                        <label>
+                            <input type="text" autocomplete="off" id = "emailInput" />
                         </label>
                     </form>
                 </div>
@@ -38,20 +41,15 @@ class LoginPage extends Component{
                         </label>
                     </form>
                 </div>
-                <div id = "forgotPassBackground">
-                    <p id="forgotPassLabel" className = "ForgotPassLabel">Forgot Password?</p>
+                <div id = "haveAccountBackground">
+                    <p id="haveAccountLabel" className = "HaveAccountLabel">Already have an account? <Link id="signInLink" to="/"><b id="signIn">Sign In</b></Link></p>
                 </div>
-                <div id="signInBtnBackground"  className="BtnBackground">
-                    <Button className="HomePageButtons" onClick={this.signIn}>Sign In</Button>
-                </div>
-                <div id="newAccountBtnBackground"  className="BtnBackground">
-                    <Link to="/register">
-                        <Button className="HomePageButtons">Create New Account</Button>
-                    </Link>
+                <div id="createAccountBtnBackground"  className="BtnBackground">
+                    <Button className="RegisterPageButtons" onClick={this.createAccount}>Create Account</Button>
                 </div>
             </div>
         )
     }
 }
 
-export default LoginPage
+export default RegistrationPage
