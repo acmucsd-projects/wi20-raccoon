@@ -1,0 +1,101 @@
+/* Title */
+#title {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 100px;
+  color: #000000;
+}
+
+/* Input Fields */
+.InputBackground {
+  text-align: center;
+  width: 600px;
+  align-content: center;
+  margin: auto;
+  border: none;
+  border-bottom: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(98, 2, 238, 1);
+}
+#emailInput {
+  border: none;
+  width: 600px;
+  height: 40px;
+  background-color: white;
+  outline: none;
+  font-size: 25px;
+}
+#passwordInput {
+  -webkit-text-security: disc;
+  border: none;
+  width: 600px;
+  height: 40px;
+  background-color: white;
+  outline: none;
+  font-size: 25px;
+}
+.InputBackground {
+  margin-top: 50px;
+}
+
+/* Buttons */
+.BtnBackground {
+  text-align: center;
+  width: 500px;
+  align-content: center;
+  margin: auto;
+}
+.RegisterPageButtons {
+  width: 500px;
+  height: 70px;
+  background-color: black;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 47px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  transition: 0.15s;
+}
+.RegisterPageButtons:hover {
+  background-color: gray;
+  color: white;
+}
+#createAccountBtnBackground {
+  margin-top: 90px;
+}
+
+/* Input Labels */
+.InputLabel {
+  text-align: left;
+  color: rgba(98, 2, 238, 1);
+  font-weight: 600;
+}
+
+/* Already Have Account */
+#haveAccountBackground {
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+  text-align: left;
+  width: 600px;
+  align-content: center;
+  margin: auto;
+  border: none;
+  height: 30px;
+}
+#signIn:hover {
+  color: gray;
+  cursor: default;
+}
+#haveAccountLabel {
+  margin-top: 25px;
+}
+#signInLink:visited {
+  color: black;
+}
