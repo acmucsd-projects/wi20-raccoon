@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Button } from 'react-bootstrap';
 import {Link} from "react-router-dom";
+
 import "./RegistrationPage.css";
 
 
@@ -11,41 +12,41 @@ class RegistrationPage extends Component{
     render(){
       
         return(
-            <div id="pageBackground">
-                <div id="titleBackground">
-                    <h1 id="title">
+            <div id="RPpageBackground">
+                <div id="RPtitleBackground">
+                    <h1 id="RPtitle">
                         Join Us
                     </h1>
                 </div>
-                <div id="userInputBackground"  className="InputBackground">
-                    <p id="userLabel" className = "InputLabel">Name</p>
+                <div id="RPuserInputBackground"  className="RPInputBackground">
+                    <p id="RPuserLabel" className = "RPInputLabel">Name</p>
                     <form>
                         <label>
-                            <input type="text" autocomplete="off" id = "userInput" />
+                            <input type="text" autocomplete="off" id = "RPuserInput" />
                         </label>
                     </form>
                 </div>
-                <div id="emailInputBackground"  className="InputBackground">
-                    <p id="emailLabel" className = "InputLabel">Email</p>
+                <div id="RPemailInputBackground"  className="RPInputBackground">
+                    <p id="RPemailLabel" className = "RPInputLabel">Email</p>
                     <form>
                         <label>
-                            <input type="text" autocomplete="off" id = "emailInput" />
+                            <input type="text" autocomplete="off" id = "RPemailInput" />
                         </label>
                     </form>
                 </div>
-                <div id="passwordInputBackground" className="InputBackground" >
-                    <p id="passLabel" className = "InputLabel">Password</p>
+                <div id="RPpasswordInputBackground" className="RPInputBackground" >
+                    <p id="RPpassLabel" className = "RPInputLabel">Password</p>
                     <form>
                         <label>
-                            <input type="text" autocomplete="off" id = "passwordInput"/>
+                            <input type="text" autocomplete="off" id = "RPpasswordInput"/>
                         </label>
                     </form>
                 </div>
-                <div id = "haveAccountBackground">
-                    <p id="haveAccountLabel" className = "HaveAccountLabel">Already have an account? <Link id="signInLink" to="/"><b id="signIn">Sign In</b></Link></p>
+                <div id = "RPhaveAccountBackground">
+                    <p id="RPhaveAccountLabel" className = "RPHaveAccountLabel">Already have an account? <Link id="RPsignInLink" to="/"><b id="RPsignIn">Sign In</b></Link></p>
                 </div>
-                <div id="createAccountBtnBackground"  className="BtnBackground">
-                    <Button className="RegisterPageButtons" onClick={this.createAccount}>Register</Button>
+                <div id="RPcreateAccountBtnBackground"  className="RPBtnBackground">
+                    <Button className="RPRegisterPageButtons" onClick={this.createAccount}>Register</Button>
                 </div>
             </div>
         )
