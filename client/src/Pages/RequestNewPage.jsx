@@ -20,35 +20,40 @@ class RequestNewPage extends Component{
                         Please send request for new place to us below.</p>
                 </div>
                 
-                <div id="RNnameInputBackground"  className="RNInputBackground">
-                    <p id="RNnameLabel" className = "RNInputLabel">Name of the place</p>
-                    <form>
-                        <label>
-                            <input type="text" autocomplete="off" id = "RNnameInput" />
-                        </label>
-                    </form>
-                </div>
-
-                <div id="RNdescInputBackground"  className="RNInputBackground">
-                    <p id="RNdescLabel" className = "RNInputLabel">Description of Place</p>
-                    <form>
-                        <label>
-                            <input type="text" autocomplete="off" id = "RNdescInput" />
-                        </label>
-                    </form>
-                </div>
-
-                <div id="RNwhyInputBackground"  className="RNInputBackground">
-                    <p id="RNwhyLabel" className = "RNInputLabel">(Optional) Why would you like to request this place?</p>
-                    <form>
-                        <label>
-                            <input type="text" autocomplete="off" id = "RNwhyInput" />
-                        </label>
-                    </form>
+                <div class="RNWrapper">
+                    <div id="RNnameInputBackground"  className="RNInputBackground">
+                        <p id="RNnameLabel" className = "RNInputLabel">Name of the place</p>
+                        <form>
+                            <label>
+                                <input type="text" autocomplete="off" id = "RNnameInput" />
+                            </label>
+                        </form>
+                    </div>
+                    <div id="RNdescInputBackground"  className="RNInputBackground">
+                        <p id="RNdescLabel" className = "RNInputLabel">Description of the place</p>
+                        <form>
+                            <label>
+                                <input type="text" autocomplete="off" id = "RNdescInput" />
+                            </label>
+                        </form>
+                    </div>
+                    <div id="RNwhyInputBackground"  className="RNInputBackground">
+                        <p id="RNwhyLabel" className = "RNInputLabel">(Optional) Why would you like to request this place?</p>
+                        <form>
+                            <label>
+                                <input type="text" autocomplete="off" id = "RNwhyInput" />
+                            </label>
+                        </form>
+                    </div>
                 </div>
 
                 <div id="RNcancelBtnBackground"  className="RNBtnBackground">
-                    <Button className="RNPageButtons">CANCEL</Button> <Button className="RNPageButtons">SUBMIT</Button>
+                    <div id="cancelButton">
+                        <Button className="RNPageButtons">CANCEL</Button>
+                    </div>
+                    <div id="submitButton">
+                        <Button className="RNPageButtons">SUBMIT</Button>
+                    </div>
                 </div>
             </div>
         )
