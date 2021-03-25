@@ -3,6 +3,7 @@ import ReactDom from 'react-dom';
 import LoginPage from "./Pages/LoginPage";
 import RegistrationPage from "./Pages/RegistrationPage";
 import RequestNewPage from './Pages/RequestNewPage';
+import PriceCenter from './Pages/PriceCenter';
 import {
     BrowserRouter as Router,
     Switch,
@@ -22,6 +23,9 @@ import {
             </Route>
             <Route path="/request">
               <RequestNewPage />
+            </Route>
+            <Route path="/price-center">
+              <PriceCenter />
             </Route>
           </Switch>
       </Router>
