@@ -4,6 +4,8 @@ import LoginPage from "./Pages/LoginPage";
 import RegistrationPage from "./Pages/RegistrationPage";
 import RequestNewPage from './Pages/RequestNewPage';
 import PriceCenter from './Pages/PriceCenter';
+import Places from './Places.js'
+import NavBar from './Navbar'
 import {
     BrowserRouter as Router,
     Switch,
@@ -13,6 +15,7 @@ import {
 
   export default function App() {
     return (
+      <div>
       <Router>
           <Switch>
             <Route path="/register">
@@ -27,7 +30,14 @@ import {
             <Route path="/price-center">
               <PriceCenter />
             </Route>
+            <Route path = '/'>
+              <NavBar/>
+            </Route>
+            <Route path = '/home'>
+              <Places />
+            </Route>
           </Switch>
       </Router>
+      </div>
     );
   }
