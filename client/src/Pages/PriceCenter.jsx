@@ -15,45 +15,41 @@ class PriceCenter extends Component{
                     </p>
                 </div>
                 
-                <div id="PCtext">
-                    <p>Note: This page is currently in progress, will update later</p>
-                </div>
-                
                 <div class="PCWrapper">
-                    <div id="PCnameInputBackground"  className="PCInputBackground">
-                        <p id="PCnameLabel" className = "PCInputLabel">Name of the place</p>
-                        <form>
-                            <label>
-                                <input type="text" autocomplete="off" id = "PCnameInput" />
-                            </label>
-                        </form>
+                    <div>
+                        <div id="PC-left">
+                            <div id="PC-left-top">
+                                <div id="PCintrotext">
+                                    <p>A great place for students to eat, hang out, and even study</p>
+                                </div>
+                                <div>
+                                    <Button className="PCPageButtons" id="PC-review-button">+ REVIEW</Button>
+                                </div>
+                            </div>
+                        </div>
+                        <h1>Need to put comments somewhere here later</h1>
+                        <Button className="PCPageButtons">SEE MORE</Button>
                     </div>
-                    <div id="PCdescInputBackground"  className="PCInputBackground">
-                        <p id="PCdescLabel" className = "PCInputLabel">Description of the place</p>
-                        <form>
-                            <label>
-                                <input type="text" autocomplete="off" id = "PCdescInput" />
-                            </label>
-                        </form>
-                    </div>
-                    <div id="PCwhyInputBackground"  className="PCInputBackground">
-                        <p id="PCwhyLabel" className = "PCInputLabel">(Optional) Why would you like to request this place?</p>
-                        <form>
-                            <label>
-                                <input type="text" autocomplete="off" id = "PCwhyInput" />
-                            </label>
-                        </form>
+                    <div id="PC-right">
+                        <div class="right-buttons">
+                            <div>
+                                <Button className="PCPageButtons">+ HANGOUT</Button>
+                            </div>
+                            <div>
+                                <Button className="PCPageButtons">SHARE</Button>
+                            </div>
+                        </div>
+                        <h1>Need to put image somewhere here later</h1>
+                        <p id="PC-location-text"><b>Location:</b> UC San Diego</p>
+                        <div class="PC-rating-box">
+                            <p><b>Overall Rating:</b> 4.5/5</p>
+                            <p><b>Safety Rating:</b> 9/10</p>
+                            <p><b>How many people are there at the moment:</b> 50 &rarr; 75</p>
+                        </div>
                     </div>
                 </div>
 
-                <div id="PCcancelBtnBackground"  className="PCBtnBackground">
-                    <div id="cancelButton">
-                        <Button className="PCPageButtons">CANCEL</Button>
-                    </div>
-                    <div id="submitButton">
-                        <Button className="PCPageButtons">SUBMIT</Button>
-                    </div>
-                </div>
+                
             </div>
         )
     }
