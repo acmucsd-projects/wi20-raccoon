@@ -1,7 +1,5 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import LoginPage from "./Pages/LoginPage";
-import HomePage from "./Pages/HomePage";
-import App from "./App.js";
+import App from "./App"
 
 ReactDom.render(<App />, document.getElementById("root"));

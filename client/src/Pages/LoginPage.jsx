@@ -1,48 +1,48 @@
 import React, { Component } from 'react';
 import { Button } from 'react-bootstrap';
+import {Link} from "react-router-dom";
+
 import "./LoginPage.css";
 
 
 class LoginPage extends Component{
-    signIn() {
-        alert("Sign in clicked");
-    }
-    createNewAccount() {
-        alert("Create New Account clicked");
-    }
     render(){
-      
+
         return(
-            <div id="pageBackground">
-                <div id="titleBackground">
-                    <h1 id="title">
+            <div id="LPpageBackground">
+                <div id="LPtitleBackground">
+                    <h1 id="LPheader">
                         ACM Hangout
                     </h1>
                 </div>
-                <div id="userInputBackground"  className="InputBackground">
-                    <p id="emailLabel" className = "InputLabel">Email</p>
+                <div id="LPuserInputBackground"  className="LPInputBackground">
+                    <p id="LPemailLabel" className = "LPInputLabel">Email</p>
                     <form>
                         <label>
-                            <input type="text" autocomplete="off" id = "userInput" />
+                            <input type="text" autocomplete="off" id = "LPuserInput" />
                         </label>
                     </form>
                 </div>
-                <div id="passwordInputBackground" className="InputBackground" >
-                    <p id="passLabel" className = "InputLabel">Password</p>
+                <div id="LPpasswordInputBackground" className="LPInputBackground" >
+                    <p id="LPpassLabel" className = "LPInputLabel">Password</p>
                     <form>
                         <label>
-                            <input type="text" autocomplete="off" id = "passwordInput"/>
+                            <input type="text" autocomplete="off" id = "LPpasswordInput"/>
                         </label>
                     </form>
                 </div>
-                <div id = "forgotPassBackground">
-                    <p id="forgotPassLabel" className = "ForgotPassLabel">Forgot Password?</p>
+                <div id = "LPforgotPassBackground">
+                    <p id="LPforgotPassLabel" className = "LPForgotPassLabel">Forgot Password?</p>
                 </div>
-                <div id="signInBtnBackground"  className="BtnBackground">
-                    <Button className="HomePageButtons" onClick={this.signIn}>Sign In</Button>
+                <div id="LPsignInBtnBackground"  className="LPBtnBackground">
+                    <Link to="/request">
+                        <Button className="LPHomePageButtons">Sign In</Button>
+                    </Link>
                 </div>
-                <div id="newAccountBtnBackground"  className="BtnBackground">
-                    <Button className="HomePageButtons" onClick={this.createNewAccount}>Create New Account</Button>
+                <div id="LPnewAccountBtnBackground"  className="LPBtnBackground">
+                    <Link to="/register">
+                        <Button className="LPHomePageButtons">Create New Account</Button>
+                    </Link>
                 </div>
             </div>
         )
