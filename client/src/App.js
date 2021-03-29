@@ -12,6 +12,7 @@ import {
     Route,
     Link
   } from "react-router-dom";
+import ReviewPage from './Pages/ReviewPage';
 
   export default function App() {
     return (
@@ -30,11 +31,14 @@ import {
             <Route path="/price-center">
               <PriceCenter />
             </Route>
-            <Route path = '/'>
+            {/* <Route path = '/'>
               <NavBar/>
-            </Route>
+            </Route> */}
             <Route path = '/home'>
               <Places />
+            </Route>
+            <Route path = '/review'>
+              <ReviewPage />
             </Route>
           </Switch>
       </Router>

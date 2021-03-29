@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-  "@material-ui/core": "^4.11.3",
-  "@material-ui/icons": "^4.11.2",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
     "@react-navigation/native": "^5.9.3",
     "@react-navigation/stack": "^5.14.3",
     "@testing-library/jest-dom": "^5.11.4",
@@ -19,7 +19,6 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.2",
     "reactstrap": "^8.9.0",
-    "react-scripts": "4.0.2",
     "typeface-roboto": "^1.1.13",
     "web-vitals": "^1.0.1"
   },
