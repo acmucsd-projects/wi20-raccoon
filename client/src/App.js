@@ -4,6 +4,8 @@ import LoginPage from "./Pages/LoginPage";
 import RegistrationPage from "./Pages/RegistrationPage";
 import RequestNewPage from './Pages/RequestNewPage';
 import PriceCenter from './Pages/PriceCenter';
+import ProfilePage from './Pages/Profile'
+import ReviewPage from './Pages/ReviewPage';
 import Places from './Places.js'
 import NavBar from './Navbar'
 import {
@@ -29,6 +31,12 @@ import {
             </Route>
             <Route path="/price-center">
               <PriceCenter />
+            </Route>
+            <Route path="/profile">
+              <ProfilePage />
+            </Route>
+            <Route path="/review">
+              <ReviewPage />
             </Route>
             <Route path = '/'>
               <NavBar/>

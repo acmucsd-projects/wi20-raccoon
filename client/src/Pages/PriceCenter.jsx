@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import { Button } from 'react-bootstrap';
 import { Link } from "react-router-dom";
-// import { pcimage } from "../images/price-center.jpg"
+import pcimage from "../images/price-center.jpg"
+import avatar1 from "../images/avataaars-1.png"
+import avatar2 from "../images/avataaars-2.png"
+import avatar3 from "../images/avataaars-3.png"
+import avatar4 from "../images/anonymous-pic.png"
 
 import "./PriceCenter.css";
 
@@ -27,8 +31,35 @@ class PriceCenter extends Component{
                                     <Button className="PCPageButtons" id="PC-review-button">+ REVIEW</Button>
                                 </div>
                             </div>
+                            <div class="comment-section">
+                                <img className="comment-avatar" src={avatar1} alt="PC-image"/>
+                                <div>
+                                    <p>Jane Doe - <b>4 &#9733;</b> - 2 days ago</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <b>See More</b></p>
+                                </div>
+                            </div>
+                            <div class="comment-section">
+                                <img className="comment-avatar" src={avatar2} alt="PC-image"/>
+                                <div>
+                                    <p>John Doe - <b>4 &#9733;</b> - 3 days ago</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <b>See More</b></p>
+                                </div>
+                            </div>
+                            <div class="comment-section">
+                                <img className="comment-avatar" src={avatar3} alt="PC-image"/>
+                                <div>
+                                    <p>Jake Doe - <b>4 &#9733;</b> - 5 days ago</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <b>See More</b></p>
+                                </div>
+                            </div>
+                            <div class="comment-section">
+                                <img className="comment-avatar" src={avatar4} alt="PC-image"/>
+                                <div>
+                                    <p>Anonymous Doe - <b>4 &#9733;</b> - 5 days ago</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <b>See More</b></p>
+                                </div>
+                            </div>
                         </div>
-                        <h1>Need to put comments somewhere here later</h1>
                         <Button className="PCPageButtons">SEE MORE</Button>
                     </div>
                     <div id="PC-right">
@@ -40,8 +71,7 @@ class PriceCenter extends Component{
                                 <Button className="PCPageButtons">SHARE</Button>
                             </div>
                         </div>
-                        <h2>Need to add image here later</h2>
-                        {/* <img className="PC-image" src={pcimage} alt="PC-image"/> */}
+                        <img className="PC-image" src={pcimage} alt="PC-image"/>
                         <p id="PC-location-text"><b>Location:</b> UC San Diego</p>
                         <div class="PC-rating-box">
                             <p><b>Overall Rating:</b> 4.5/5</p>

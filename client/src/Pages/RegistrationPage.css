@@ -1,18 +1,19 @@
-#RPpageBackground {
+/* #RPpageBackground {
   padding-top: 50px;
-}
+} */
+
 /* Title */
 #RPtitle {
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 647;
-  font-size: 80px;
+  font-size: 50px;
 }
 
 /* Input Fields */
 .RPInputBackground {
   text-align: center;
-  width: 520px;
+  width: 40%;
   align-content: center;
   margin: auto;
   border: none;
@@ -20,31 +21,39 @@
   border-bottom-style: solid;
   border-bottom-color: rgba(98, 2, 238, 1);
 }
+
+#RPuserInputBackground {
+  margin-top: -5px;
+}
+
 #RPemailInput {
   border: none;
-  width: 600px;
+  width: 100%;
   height: 30px;
   background-color: white;
   outline: none;
-  font-size: 20px;
+  font-size: 18px;
 }
+
 #RPpasswordInput {
   -webkit-text-security: disc;
   border: none;
-  width: 600px;
+  width: 100%;
   height: 30px;
   background-color: white;
   outline: none;
-  font-size: 20px;
+  font-size: 18px;
 }
+
 #RPuserInput {
   border: none;
-  width: 600px;
+  width: 100%;
   height: 30px;
   background-color: white;
   outline: none;
-  font-size: 20px;
+  font-size: 18px;
 }
+
 .RPInputBackground {
   margin-top: 50px;
 }
@@ -56,28 +65,31 @@
   align-content: center;
   margin: auto;
 }
+
 .RPRegisterPageButtons {
-  width: 370px;
-  height: 65px;
+  width: 70%;
+  height: 50px;
   background-color: black;
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 28px;
-  line-height: 50px;
+  font-size: 20px;
+  /* line-height: 50px; */
   border-radius: 1%;
   border: none;
   outline: none;
   transition: 0.15s;
 }
+
 .RPRegisterPageButtons:hover {
   background-color: gray;
   color: white;
 }
+
 #RPcreateAccountBtnBackground {
-  margin-top: 90px;
+  margin-top: 30px;
 }
 
 /* Input Labels */
@@ -100,13 +112,16 @@
   border: none;
   height: 30px;
 }
+
 #RPsignIn:hover {
   color: gray;
   cursor: default;
 }
+
 #RPhaveAccountLabel {
-  margin-top: 25px;
+  margin-top: 15px;
 }
+
 #RPsignInLink:visited {
   color: black;
 }
