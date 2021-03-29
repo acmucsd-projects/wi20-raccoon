@@ -27,6 +27,10 @@ class PriceCenter extends Component{
                                     <Button className="PCPageButtons" id="PC-review-button">+ REVIEW</Button>
                                 </div>
                             </div>
+                            <div class="comment-section">
+                                <p>Jane Doe - 4 &#9733; - 5 days ago</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <b>See More</b></p>
+                            </div>
                         </div>
                         <h1>Need to put comments somewhere here later</h1>
                         <Button className="PCPageButtons">SEE MORE</Button>
@@ -41,7 +45,7 @@ class PriceCenter extends Component{
                             </div>
                         </div>
                         <h2>Need to add image here later</h2>
-                        {/* <img className="PC-image" src={pcimage} alt="PC-image"/> */}
+                        <img className="PC-image" src="../images/price-center.jpg" alt="PC-image"/>
                         <p id="PC-location-text"><b>Location:</b> UC San Diego</p>
                         <div class="PC-rating-box">
                             <p><b>Overall Rating:</b> 4.5/5</p>

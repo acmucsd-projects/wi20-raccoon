@@ -41,6 +41,10 @@ body {
   margin-top: 40px;
 }
 
+.comment-section {
+  text-align: left;
+}
+
 /* PC Right */
 #PC-right {
   margin-top: 40px;
