@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Button } from 'react-bootstrap';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
+// import { pcimage } from "../images/price-center.jpg"
 
 import "./PriceCenter.css";
 
@@ -39,7 +40,8 @@ class PriceCenter extends Component{
                                 <Button className="PCPageButtons">SHARE</Button>
                             </div>
                         </div>
-                        <h1>Need to put image somewhere here later</h1>
+                        <h2>Need to add image here later</h2>
+                        {/* <img className="PC-image" src={pcimage} alt="PC-image"/> */}
                         <p id="PC-location-text"><b>Location:</b> UC San Diego</p>
                         <div class="PC-rating-box">
                             <p><b>Overall Rating:</b> 4.5/5</p>
