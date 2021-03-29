@@ -38,9 +38,9 @@ import {
             <Route path="/review">
               <ReviewPage />
             </Route>
-            <Route path = '/'>
+            {/* <Route path = '/'>
               <NavBar/>
-            </Route>
+            </Route> */}
             <Route path = '/home'>
               <Places />
             </Route>
