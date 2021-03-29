@@ -35,7 +35,7 @@ class LoginPage extends Component{
                     <p id="LPforgotPassLabel" className = "LPForgotPassLabel">Forgot Password?</p>
                 </div>
                 <div id="LPsignInBtnBackground"  className="LPBtnBackground">
-                    <Link to="/request">
+                    <Link to="/home">
                         <Button className="LPHomePageButtons">Sign In</Button>
                     </Link>
                 </div>
