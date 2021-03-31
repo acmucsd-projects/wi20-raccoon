@@ -6,6 +6,7 @@ import {SidebarData} from './SidebarData'
 import './Navbar.css'
 import SearchIcon from "@material-ui/icons/Search";
 import Avatar from "@material-ui/core/Avatar";
+import avatar1 from "./images/avataaars-1.png"
 
 function Navbar() {
     const [sidebar, setSidebar] = useState(false)
@@ -40,7 +41,7 @@ function Navbar() {
                 <SearchIcon style={{ color: 'white'}}/>
             </div>
             <div className = "profile">
-                <Avatar />
+                <img className="profile-avatar" src={avatar1} alt="profile-image"/>
             </div>
         </div>
     )

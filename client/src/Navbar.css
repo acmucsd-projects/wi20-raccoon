@@ -43,7 +43,7 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    padding: 8px 0px 8px 16px;
+    padding: 0px 0px 3px 5px;
     list-style: none;
     height: 60px;
     color: black;
@@ -52,12 +52,12 @@
   .nav-text a {
     text-decoration: none;
     color: black;
-    font-size: 18px;
+    font-size: 15px;
     width: 95%;
     height: 100%;
     display: flex;
     align-items: center;
-    padding: 0 16px;
+    padding: 0 2px;
     border-radius: 4px;
   }
   
@@ -81,4 +81,29 @@
   span {
     margin-left: 16px;
   }
-  
+  .searchbar{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    max-width: fit-content;
+    padding: 10px;
+    height: 20px;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.searchbar > input{
+    border: none;
+    padding: 10px;
+    height: 15px;
+    outline-width: 0;
+    background: transparent;
+    color: white;
+}
+.profile{
+  width: 50px;
+  height: 50px;
+}
