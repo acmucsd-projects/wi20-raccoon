@@ -26,7 +26,7 @@ class PriceCenter extends Component{
                         <div id="PC-left">
                             <div id="PC-left-top">
                                 <div id="PCintrotext">
-                                    <p>A great place for students to eat, hang out, and even study</p>
+                                    <p>Price Center offers a variety of services, places, and spaces geared to the needs of students including restaurants, the campus bookstore, a movie theater, and offices for student organizations.</p>
                                 </div>
                                 <div>
                                     <Link to="/review">

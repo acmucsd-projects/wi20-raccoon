@@ -14,7 +14,7 @@ function PlaceCard(props) {
                 <CardImg className = "place-image" src = {props.imgUrl} />
                 <CardTitle className = "building-name">{props.name}</CardTitle>
                 <CardText className = "description">{props.description}</CardText>
-                <Link to="/review">
+                <Link to="/price-center">
                     <Button className = "more-info">MORE INFO</Button> 
                 </Link>
             </Card>

@@ -68,19 +68,19 @@ body {
     font-size: 25px;
   }
   
-  .PC-image {
-    margin-top: 20px;
+  .SetHangout-image {
+    /* margin-top: 20px; */
     width: 100%;
     height: auto;
   }
     
   /* Text */
-  #PCintrotext {
+  #SetHangout-introtext {
     text-align: center;
     /* width: 60%; */
     align-content: center;
     margin: auto;
-    font-size: 30px;
+    font-size: 18px;
     color: black;
   }
    

@@ -61,10 +61,10 @@ class SetHangout extends Component{
                         </div>
                     </div>
                     <div id="SetHangout-right">
-                        <div id="PCintrotext">
-                            <p>A great place for students to eat, hang out, and even study</p>
+                        <div id="SetHangout-introtext">
+                            <p>Price Center offers a variety of services, places, and spaces geared to the needs of students including restaurants, the campus bookstore, a movie theater, and offices for student organizations.</p>
                         </div>
-                        <img className="PC-image" src={pcimage} alt="PC-image"/>
+                        <img className="SetHangout-image" src={pcimage} alt="sethangout-image"/>
                         <p id="PC-location-text"><b>Location:</b> UC San Diego <IoMdArrowDropdown className = "pc-drop-icon"/></p>
                         <div class="PC-rating-box">
                             <p><b>Overall Rating:</b> 4.5/5</p>
