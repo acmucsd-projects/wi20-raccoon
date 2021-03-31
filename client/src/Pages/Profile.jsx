@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Button } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import avatar1 from "../images/avataaars-1.png"
+import Navbar from '../Navbar.js'
 
 import "./Profile.css";
 
@@ -10,6 +11,7 @@ class Profile extends Component{
     render(){
         return(
             <div id="ProfileBackground">
+                
                 <div id="ProfileHeaderBackground">
                     <p id="ProfileTitle">
                         Profile Settings
