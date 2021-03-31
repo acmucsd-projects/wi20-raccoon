@@ -41,7 +41,9 @@ function Navbar() {
                 <SearchIcon style={{ color: 'white'}}/>
             </div>
             <div className = "profile">
-                <img className="profile-avatar" src={avatar1} alt="profile-image"/>
+                <Link to="/profile">
+                    <img className="profile-avatar" src={avatar1} alt="profile-image"/>
+                </Link>
             </div>
         </div>
     )
