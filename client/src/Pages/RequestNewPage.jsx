@@ -29,6 +29,14 @@ class RequestNewPage extends Component{
                             </label>
                         </form>
                     </div>
+                    <div id="RNnameInputBackground"  className="RNInputBackground">
+                        <p id="RNnameLabel" className = "RNInputLabel">Address</p>
+                        <form>
+                            <label>
+                                <input type="text" autocomplete="off" id = "RNnameInput" />
+                            </label>
+                        </form>
+                    </div>
                     <div id="RNdescInputBackground"  className="RNInputBackground">
                         <p id="RNdescLabel" className = "RNInputLabel">Description of the place</p>
                         <form>
