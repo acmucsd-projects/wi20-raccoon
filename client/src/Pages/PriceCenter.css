@@ -119,6 +119,12 @@ body {
 #PCcancelBtnBackground {
   margin-top: 60px;
 }
+
+.pc-drop-icon{
+  position: relative;
+  top: 5px;
+  /* margin-left: 5px; */
+}
   
   /* Responsive */
 @media screen and (max-width: 700px) {

@@ -6,6 +6,7 @@ import RequestNewPage from './Pages/RequestNewPage';
 import PriceCenter from './Pages/PriceCenter';
 import ProfilePage from './Pages/Profile'
 import ReviewPage from './Pages/ReviewPage';
+import SetHangout from './Pages/SetHangout';
 import Places from './Places.js'
 import NavBar from './Navbar'
 import {
@@ -37,6 +38,9 @@ import {
             </Route>
             <Route path="/review">
               <ReviewPage />
+            </Route>
+            <Route path="/sethangout">
+              <SetHangout />
             </Route>
             {/* <Route path = '/'>
               <NavBar/>

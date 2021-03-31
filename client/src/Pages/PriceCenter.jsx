@@ -6,6 +6,7 @@ import avatar1 from "../images/avataaars-1.png"
 import avatar2 from "../images/avataaars-2.png"
 import avatar3 from "../images/avataaars-3.png"
 import avatar4 from "../images/anonymous-pic.png"
+import {IoMdArrowDropdown} from 'react-icons/io'
 
 import "./PriceCenter.css";
 
@@ -28,7 +29,9 @@ class PriceCenter extends Component{
                                     <p>A great place for students to eat, hang out, and even study</p>
                                 </div>
                                 <div>
-                                    <Button className="PCPageButtons" id="PC-review-button">+ REVIEW</Button>
+                                    <Link to="/review">
+                                        <Button className="PCPageButtons" id="PC-review-button">+ REVIEW</Button>
+                                    </Link>
                                 </div>
                             </div>
                             <div class="comment-section">
@@ -65,14 +68,16 @@ class PriceCenter extends Component{
                     <div id="PC-right">
                         <div class="right-buttons">
                             <div>
-                                <Button className="PCPageButtons">+ HANGOUT</Button>
+                                <Link to="/sethangout">
+                                    <Button className="PCPageButtons">+ HANGOUT</Button>
+                                </Link>
                             </div>
                             <div>
                                 <Button className="PCPageButtons">SHARE</Button>
                             </div>
                         </div>
                         <img className="PC-image" src={pcimage} alt="PC-image"/>
-                        <p id="PC-location-text"><b>Location:</b> UC San Diego</p>
+                        <p id="PC-location-text"><b>Location:</b> UC San Diego <IoMdArrowDropdown className = "pc-drop-icon"/></p>
                         <div class="PC-rating-box">
                             <p><b>Overall Rating:</b> 4.5/5</p>
                             <p><b>Safety Rating:</b> 9/10</p>

@@ -57,10 +57,14 @@ class RequestNewPage extends Component{
 
                 <div id="RNcancelBtnBackground"  className="RNBtnBackground">
                     <div id="cancelButton">
-                        <Button className="RNPageButtons">CANCEL</Button>
+                        <Link to="/home">
+                            <Button className="RNPageButtons">CANCEL</Button>
+                        </Link>
                     </div>
                     <div id="submitButton">
-                        <Button className="RNPageButtons">SUBMIT</Button>
+                        <Link to="/home">
+                            <Button className="RNPageButtons">SUBMIT</Button>
+                        </Link>
                     </div>
                 </div>
             </div>
