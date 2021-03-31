@@ -54,7 +54,9 @@ class Profile extends Component{
                                 </form>
                             </div>
                             <div class="ProfileButtonCenter">
-                                <Button className="PFPageButtons" id="PF-save-button">SAVE</Button>
+                                <Link to="/home">
+                                    <Button className="PFPageButtons" id="PF-save-button">SAVE</Button>
+                                </Link>
                             </div>
                         </div>
                         <div id="ProfileRight">
