@@ -109,6 +109,7 @@ body {
   }
   #RErevAsAnon{
     flex: 2;
+    margin-left: -30px;
   }
   
   .REBtnBackground {
